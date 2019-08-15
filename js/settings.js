@@ -45,6 +45,16 @@ $(document).ready(function () {
          ========================================================================== */
         $(".mailprotected1").html("zoltan@galaz.eu").attr("href", "mailto:zoltan@galaz.eu");
 
+        /* ==========================================================================
+         # Phone protection
+         ========================================================================== */
+         $(".phoneprotected1").html("(+421) 903 390 390");
+
+         /* ==========================================================================
+         # Location protection
+         ========================================================================== */
+         $(".locationprotected1").html("Bratislava, Slovakia.").attr("href", "http://maps.google.com/?q=Bratislava, Slovakia").attr("target", "_blank");
+
     } catch (ex) {
     }
 });
