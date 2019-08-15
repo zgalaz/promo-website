@@ -832,6 +832,13 @@ a.totop-link {
     -webkit-transition-duration: .2s;
     -o-transition-duration: .2s;
 }
+.experience-details a {
+    color: #7dba5c;
+}
+.experience-details a:hover {
+    color: #7dba5c;
+}
+
 /* ==========================================================================
    #Education Screen
    ========================================================================== */
@@ -873,6 +880,12 @@ a.totop-link {
     -moz-transition-duration: .2s;
     -webkit-transition-duration: .2s;
     -o-transition-duration: .2s;
+}
+.education-details a {
+    color: #7dba5c;
+}
+.education-details a:hover {
+    color: #7dba5c;
 }
 
 /* ==========================================================================
@@ -917,6 +930,12 @@ a.totop-link {
     -webkit-transition-duration: .2s;
     -o-transition-duration: .2s;
 }
+.internships-details a {
+    color: #7dba5c;
+}
+.internships-details a:hover {
+    color: #7dba5c;
+}
 
 /* ==========================================================================
    #projects Screen
@@ -959,6 +978,12 @@ a.totop-link {
     -moz-transition-duration: .2s;
     -webkit-transition-duration: .2s;
     -o-transition-duration: .2s;
+}
+.projects-details a {
+    color: #7dba5c;
+}
+.projects-details a:hover {
+    color: #7dba5c;
 }
 
 /* ==========================================================================
