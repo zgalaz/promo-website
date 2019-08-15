@@ -3,7 +3,7 @@ $(document).ready(function () {
     try {
 
         /* ==========================================================================
-         #PieChart For Skills Page
+         # PieChart For Skills Page
          ========================================================================== */
 
         $('.chart').easyPieChart({
@@ -15,7 +15,7 @@ $(document).ready(function () {
 
 
         /* ==========================================================================
-         #Carousel Popup For Portfolio Page
+         # Carousel Popup For Portfolio Page
          ========================================================================== */
         $(".owl-carousel").owlCarousel({
             navigation: true,
@@ -26,12 +26,12 @@ $(document).ready(function () {
         });
 
         /* ==========================================================================
-         #Text Rotator 
+         # Text Rotator 
          ========================================================================== */
         $('#rotate').rotaterator({fadeSpeed: 800, pauseSpeed: 800});
 
         /* ==========================================================================
-         #Orientation change event
+         # Orientation change event
          ========================================================================== */
         $(window).on('orientationchange', function (event) {
             window.location.href = window.location.href;
@@ -40,12 +40,17 @@ $(document).ready(function () {
         //Videos
         $(".content-scroller").fitVids();
 
+        /* ==========================================================================
+         # Email protection
+         ========================================================================== */
+        $(".mailprotected1").html("zoltan@galaz.eu").attr("href", "mailto:zoltan@galaz.eu");
+
     } catch (ex) {
     }
 });
 
 /* ==========================================================================
- #Progress Bar For Skills Page
+ # Progress Bar For Skills Page
  ========================================================================== */
 
 progressBar(99, $('#progressBar'));
@@ -53,7 +58,7 @@ progressBar(90, $('#progressBar2'));
 progressBar(50, $('#progressBar3'));
 
 /* ==========================================================================
- #Mobile Menu
+ # Mobile Menu
  ========================================================================== */
 
 var $menu = $('#menu1'),
@@ -71,7 +76,7 @@ $('nav#menu1 a').click(function () {
 
 
 /* ==========================================================================
- #iPad,iPhone,iPod Keyboard issue with position fixed
+ # iPad,iPhone,iPod Keyboard issue with position fixed
  ========================================================================== */
 var iPad = navigator.userAgent.toLowerCase().indexOf("ipad");
 var iPhone = navigator.userAgent.toLowerCase().indexOf("iphone");
