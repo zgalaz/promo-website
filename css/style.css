@@ -346,6 +346,21 @@ q {
 .margin-bottom10 {
     margin-bottom: 10px
 }
+.margin-top100 {
+    margin-top: 100px
+}
+.margin-top90 {
+    margin-top: 90px
+}
+.margin-top80 {
+    margin-top: 80px
+}
+.margin-top70 {
+    margin-top: 70px
+}
+.margin-top60 {
+    margin-top: 60px
+}
 .margin-top50 {
     margin-top: 50px
 }
@@ -620,15 +635,15 @@ a.totop-link {
     text-transform: uppercase;
     font-size: 13px;
 }
-.introduction a {
-    color: #e4e4e4;
-}
 .introduction h2 {
     color: #e4e4e4;
-    font-weight: 400
+    font-weight: 400;
+}
+.introduction a {
+    color: #7dba5c;
 }
 .introduction a:hover {
-    color: #7dba5c;
+    color: #e4e4e4;
 }
 
 /* ==========================================================================
@@ -701,6 +716,13 @@ a.totop-link {
     -webkit-transition-duration: .1s;
     -o-transition-duration: .1s;
 }
+.skills-con a {
+    color: #7dba5c;
+}
+.skills-con a:hover {
+    color: #818181;
+}
+
 
 /* ==========================================================================
    #Progressbar
@@ -836,7 +858,7 @@ a.totop-link {
     color: #7dba5c;
 }
 .experience-details a:hover {
-    color: #7dba5c;
+    color: #818181;
 }
 
 /* ==========================================================================
@@ -885,7 +907,7 @@ a.totop-link {
     color: #7dba5c;
 }
 .education-details a:hover {
-    color: #7dba5c;
+    color: #818181;
 }
 
 /* ==========================================================================
@@ -934,7 +956,7 @@ a.totop-link {
     color: #7dba5c;
 }
 .internships-details a:hover {
-    color: #7dba5c;
+    color: #818181;
 }
 
 /* ==========================================================================
@@ -983,7 +1005,7 @@ a.totop-link {
     color: #7dba5c;
 }
 .projects-details a:hover {
-    color: #7dba5c;
+    color: #818181;
 }
 
 /* ==========================================================================
