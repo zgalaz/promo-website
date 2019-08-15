@@ -1,5 +1,8 @@
 # TODO file
-.TODO.txt
+TODO.txt
+
+# Temporary directory
+temp/
 
 # Project related directories
 .aux
