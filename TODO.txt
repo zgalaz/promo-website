@@ -1,5 +1,0 @@
--------
-TO ADD:
--------
-	1. Section "Courses" - certifications, etc.
-	2. Section "Publications" - articles, journal papers
