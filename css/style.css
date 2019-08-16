@@ -373,6 +373,9 @@ q {
 .margin-top20 {
     margin-top: 20px
 }
+.margin-top15 {
+    margin-top: 15px
+}
 .margin-top10 {
     margin-top: 10px
 }
@@ -1014,7 +1017,13 @@ a.totop-link {
 
 .contact-details i {
     font-size: 45px;
-    color: #7dba5c
+    color: #818181;
+}
+.contact-details a {
+    color: #818181;
+}
+.contact-details a:hover {
+    color: #818181;
 }
 .contact-details strong {
     display: inline-block;
@@ -1037,8 +1046,28 @@ a.totop-link {
     font-size: 35px
 }
 .contact-details .email i {
-    font-size: 35px
+    font-size: 35px;
 }
+
+.contact-description {
+    width: 100%
+}
+.contact-description ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+.contact-description ul li {
+    border-bottom: 1px solid rgba(235, 235, 235, 0.2);
+    padding: 12px 0;
+}
+.contact-description ul li:first-child {
+    padding: 0 0 12px 0
+}
+.contact-description ul li:last-child {
+    border-bottom: 0px
+}
+
 .contact-text i {
     transition-duration: .2s;
     -moz-transition-duration: .2s;
@@ -1047,6 +1076,11 @@ a.totop-link {
 }
 .contact-text:hover i {
     color: #818181;
+}
+.contact-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .contact-social i {
     color: #797979;
@@ -1065,7 +1099,7 @@ a.totop-link {
     -o-transition-duration: .2s;
 }
 .contact-social i:hover {
-    color: #818181;
+    color: #fff;
 }
 .contact-form h3 {
     font-size: 28px;
