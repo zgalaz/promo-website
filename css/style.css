@@ -1048,7 +1048,6 @@ a.totop-link {
 .contact-details .email i {
     font-size: 35px;
 }
-
 .contact-description {
     width: 100%
 }
@@ -1067,7 +1066,6 @@ a.totop-link {
 .contact-description ul li:last-child {
     border-bottom: 0px
 }
-
 .contact-text i {
     transition-duration: .2s;
     -moz-transition-duration: .2s;
