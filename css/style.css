@@ -752,7 +752,7 @@ a.totop-link {
     font-weight: 400;
     position: absolute;
     left: -93px;
-    color: #7dba5c;
+    color: #818181;
     top: -19px
 }
 .progress-value span:after {
@@ -791,7 +791,7 @@ a.totop-link {
     font-weight: 400;
     letter-spacing: -1px;
     margin: 21px 0 0 0;
-    color: #7dba5c;
+    color: #818181;
 }
 .percent:after {
     content: '%';
