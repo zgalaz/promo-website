@@ -1,4 +1,5 @@
 @import url('normalize.css');
+@import url('academicons.min.css');
 /*
 ----------------------------------
 
@@ -487,6 +488,10 @@ q {
 }
 .social .youtube {
     margin: 0 2.5px 0 2.5px
+}
+.social .academic-google-scholar {
+    margin: 0 2.5px 0 2.5px;
+    font-family: Academicons;
 }
 .copyright {
     position: absolute;
@@ -1086,6 +1091,9 @@ a.totop-link {
 .contact-social a i {
     font-size: 25px;
     margin: 0 14px
+}
+.contact-social i.academic:before {
+    font-family: 'Academicons'; 
 }
 .contact-social a:first-child i {
     margin: 0 15px 0 0
