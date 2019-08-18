@@ -1,7 +1,7 @@
 /* Media Queries */
 @media screen and (max-width: 1700px) {
 .blog-list iframe, embed, object{
-     height: 94% !important;
+    height: 94% !important;
     min-height: auto;
 }
 .recent-comments .col-3{
@@ -87,7 +87,7 @@
     .contact-form {
         padding-bottom: 200px;
     }
-    .menu nav a{
+    .menu nav a {
         padding: 11px 0;
     }
     .pagerblock {
@@ -260,7 +260,7 @@
     }
     nav.active .jspContainer {
         background-color: #000;
-        height: 380px !important;
+        height: 420px !important;
         width: 100% !important;
     }
     .menu {
