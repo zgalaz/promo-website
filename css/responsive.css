@@ -260,7 +260,7 @@
     }
     nav.active .jspContainer {
         background-color: #000;
-        height: 420px !important;
+        height: 380px !important;
         width: 100% !important;
     }
     .menu {

@@ -73,7 +73,6 @@ var pagetitle=$(document).find("title").text();
 					$('#link_education').removeClass('active');
 					$('#link_internships').removeClass('active');
 					$('#link_projects').removeClass('active');
-					$('#link_publications').removeClass('active');
 					$('#link_contact').removeClass('active');
 					
 					$('#link_'+chapter).addClass('active');
@@ -119,7 +118,6 @@ var pagetitle=$(document).find("title").text();
 					$('#link_education').removeClass('active');
 					$('#link_internships').removeClass('active');
 					$('#link_projects').removeClass('active');
-					$('#link_publications').removeClass('active');
 					$('#link_contact').removeClass('active');
 					
 					$('#link_'+chapter).addClass('active');
