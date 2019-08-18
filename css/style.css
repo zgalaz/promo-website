@@ -489,10 +489,6 @@ q {
 .social .youtube {
     margin: 0 2.5px 0 2.5px
 }
-.social .academic-google-scholar {
-    margin: 0 2.5px 0 2.5px;
-    font-family: Academicons;
-}
 .copyright {
     position: absolute;
     bottom: 5px;
@@ -517,7 +513,7 @@ q {
     height: 100%;
 }
 .content-wrapper {
-    width: 7272px;
+    width: 8112px;
     position: absolute;
     height: 100%;
     overflow: hidden;
@@ -1013,6 +1009,55 @@ a.totop-link {
     color: #7dba5c;
 }
 .projects-details a:hover {
+    color: #818181;
+}
+
+/* ==========================================================================
+   #publications Screen
+   ========================================================================== */
+
+.publications-con .icon-block i {
+    font-size: 60px;
+    color: #7dba5c;
+    margin: 8px 0 0
+}
+.publications-con h5 {
+    margin: 5px 0 7px 0
+}
+.publications-con span {
+    font-size: 16px;
+}
+.publications-con strong {
+    font-weight: 500;
+    color: #000;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 0 5px 0
+}
+.publications-details {
+    float: left
+}
+.publications-details i {
+    transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+}
+.publications-details:hover i {
+    font-size: 73px;
+    color: #818181;
+}
+.publications-details:hover .col-3 {
+    width: 29%;
+    transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+}
+.publications-details a {
+    color: #7dba5c;
+}
+.publications-details a:hover {
     color: #818181;
 }
 
