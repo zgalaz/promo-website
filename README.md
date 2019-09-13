@@ -1,5 +1,5 @@
 # Promo Website
-Hi there, my name is [Zoltan Galaz](http://zoltan.galaz.eu/) <zoltan@galaz.eu>, and this is my promotional website. 
+Hi there, my name is [Zoltan Galaz](http://zoltan.galaz.eu/) (zoltan@galaz.eu), and this is my promotional website. 
 Instead of describing what it's composed of (well, it's a webpage, so HTML, CSS, and JS), let me share some things 
 about myself.
 
