@@ -1103,7 +1103,34 @@ a.totop-link {
     -webkit-transition-duration: .2s;
     -o-transition-duration: .2s;
 }
-.contact-social i:hover {
+.contact-social-404 i:hover {
+    color: #fff;
+}
+.contact-social-404 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+.contact-social-404 i {
+    color: #797979;
+}
+.contact-social-404 a i {
+    font-size: 25px;
+    margin: 0 14px
+}
+.contact-social-404 i.academic:before {
+    font-family: 'Academicons'; 
+}
+.contact-social-404 a:first-child i {
+    margin: 0 15px 0 0
+}
+.contact-social-404 i {
+    transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+}
+.contact-social-404 i:hover {
     color: #fff;
 }
 .contact-form h3 {
